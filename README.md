@@ -2,11 +2,11 @@
 
 ![Infinite Adventure pixel logo](logo.png)
 
-A little adventure. No grand purpose.
+Beyond the horizon, the adventure continues.
 
 Play: https://bigbirdvc.github.io/infinite-adventure/
 
-An endless, completely idle fantasy RPG. The wanderer follows roads, explores villages, camps and ruins, finishes 1–3 quests per map and takes pointless detours. Enemies scale with his level. There are no hero controls.
+An endless, completely idle fantasy RPG. The wanderer follows roads, explores villages, camps and ruins, finishes 1–3 quests per map and takes discoveries. Enemies scale with his level. There are no hero controls.
 
 ## Watching speed
 
@@ -14,7 +14,7 @@ Default (1) runs 20% slower than the previous game: one tile takes 0.375 seconds
 
 ## Pixel world
 
-Connected roads, bridges, accessible buildings and clustered woods structure eight biomes and three road layouts. Twenty quest templates and varied creatures, objects and distractions keep the journey changing. The camera gently follows the hero. Original tiles use 3232 pixels, displayed at least 40 CSS pixels across. Battle portraits display at 9696. The pixel logo combines an infinity symbol and a sword.
+Connected roads, bridges, accessible buildings and clustered woods structure eight biomes and three road layouts. Twenty quest templates and varied creatures, objects and distractions keep the journey changing. Full view shows the whole map by default. Close view gently follows the hero. Original tiles use 3232 pixels, scaled to fit the available area in Full view, and displayed at least 40 CSS pixels across in Close view. Battle portraits display at 9696. The pixel logo combines a mossy shield and a sword.
 
 On desktop, the map and encounter panel fit within one viewport, while the journal scrolls independently. Smaller mobile screens use a stacked layout.
 
