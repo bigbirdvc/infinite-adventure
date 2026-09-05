@@ -8,7 +8,7 @@ An endless idle fantasy RPG with procedural maps, 20 quest chains, exploration, 
 
 ## Map views
 
-Full is the default and shows the entire map using the original pixel artwork, scaled to fit the available space. Close enlarges the landscape and follows the adventurer. Your view preference is saved. Original tiles are 32 by 32 pixels; Close displays them at least 40 CSS pixels across. Battle portraits display at 96 by 96 pixels. The logo uses the classic sword and moss emblem.
+Full Map is the default and shows the entire map using the original pixel artwork, scaled to fit the available space. Follow enlarges the landscape and follows the adventurer. Your view preference is saved. Original tiles are 32 by 32 pixels; Follow displays them at least 40 CSS pixels across. Battle portraits display at 56 by 56 CSS pixels on desktop. The logo uses the classic sword and moss emblem.
 
 On desktop the map and encounter panel fit within one viewport, with an independently scrolling journal. Mobile uses a stacked layout.
 
@@ -20,4 +20,10 @@ Saves include levels, inventory, quests, map, route, battle and random seed. Old
 
 ## Local play
 
-Open index.html with engine.js, logo.png and meadow.wav alongside it. No build or external dependencies. Browser restrictions may affect local-file saves. Original music is included. Approximately 1 MB total. MIT licensed.
+Open index.html with engine.js, character.js, logo.png and meadow.wav alongside it. No build or external dependencies. Browser restrictions may affect local-file saves. Original music is included. Approximately 1 MB total. MIT licensed.
+
+## Your character
+
+Choose a name and a Knight, Elf or Mage. Roll Outfit randomises six equipment colour regions. The chosen shape and colours appear in the creator, on the map and in battle; narration uses the chosen name. Existing unnamed saves request this setup while keeping their progress.
+
+The header contains map title, sound, Slow / Normal / Fast speed and Full Map / Follow view controls. Delete Character at the bottom of the journal opens a permanent-deletion warning with Keep Character and Delete Forever actions. Confirming removes the saved adventure and returns to the creator.
