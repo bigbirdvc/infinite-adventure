@@ -2,37 +2,26 @@
 
 ![Infinite Adventure pixel logo](logo.png)
 
-**Play:** https://bigbirdvc.github.io/infinite-adventure/
+A little adventure. No grand purpose.
 
-An endless, completely idle fantasy RPG. A small adventurer follows roads, explores villages and camps, gathers useless relics, faces sleepy monsters, and finishes every quest. No grand destiny awaits.
+Play: https://bigbirdvc.github.io/infinite-adventure/
+
+An endless, completely idle fantasy RPG. The wanderer follows roads, explores villages, camps and ruins, finishes 1–3 quests per map and takes pointless detours. Enemies scale with his level. There are no hero controls.
 
 ## Watching speed
 
-- **Default (1):** three times the pace of Department of Nothing 2. A tile takes 0.3 seconds.
-- **Fast (2×):** twice the new Default.
-- **Slow (0.5×):** half the new Default.
-- **Offline:** always Default (1), regardless of the last selected watching speed.
+Default (1) runs 20% slower than the previous game: one tile takes 0.375 seconds. Slow runs at 0.5 and Fast at 2. Offline progress always uses Default. Across 100 generated maps, completion took 272–334 seconds at Default.
 
-The watching speed is remembered separately from the adventure save. Short encounter messages and a persistent travel history accompany the faster pace.
+## Pixel world
 
-## Regions with structure
+Connected roads, bridges, accessible buildings and clustered woods structure eight biomes and three road layouts. Twenty quest templates and varied creatures, objects and distractions keep the journey changing. The camera gently follows the hero. Original tiles use 3232 pixels, displayed at least 40 CSS pixels across. Battle portraits display at 9696. The pixel logo combines an infinity symbol and a sword.
 
-Each map has a river, connected roads, actual bridges, and four planned settlement or wilderness clearings. Buildings have blocked footprints, accessible doors, and paths to their settlement. Clustered woods leave the roads clear. Three road layouts and eight biomes vary the landscape.
+On desktop, the map and encounter panel fit within one viewport, while the journal scrolls independently. Smaller mobile screens use a stacked layout.
 
-Cottages, taverns, tents, watchtowers, towers, and ruins appear where they belong. Townsfolk stay near settlements; monsters and relics favour the wilder places. The adventurer prefers roads and stands beside objects to interact.
+## Saved adventures
 
-Each region has **1–3 main quests** from 20 fantasy quest chains, with optional encounters and diversions filling out the journey. A time budget targets roughly 4–5 minutes at Default. A conservative remaining-quest estimate prevents optional detours from exceeding the six-minute budget. Every main quest is completed before departure. No quests are silently skipped and there is no teleporting to beat the clock.
-
-## Endless and saved
-
-Experience, gold, rations, levels, and completed-region counts continue indefinitely. New foes are within one level of the hero. Battles display both pixel sprites. A defeat or overlong battle cannot block the adventure.
-
-Browser storage keeps the exact map, path, event countdown, battle, and random seed. Returning simulates up to seven days at Default and shows actual results; longer absences are described separately as an unrecorded daydream. The other games' saves are separate.
+Browser storage preserves the map, route, fight, seed and progress. Returning simulates up to seven days at Default and presents the actual results. Longer absences receive a separate fictional daydream. Saves are separate from the earlier games.
 
 ## Local play
 
-Open `index.html` with `engine.js`, `logo.png`, and `meadow.wav` alongside it. No installation, libraries, fonts, accounts, or external services. Browser restrictions may affect local-file saves; the hosted version uses normal per-origin storage.
-
-The hand-built pixel logo is a transparent bitmap, with a mossy sword emblem and winding path. Game sprites use the same pixel palette and rendering style. Original 40-second music is bundled. Approximately 1 MB total. MIT licensed.
-
-Infinite Adventure: Default runs at 80% of the previous game’s speed. Offline uses Default. The map camera follows the hero with tiles at least 40 CSS pixels across; battle portraits are 96 CSS pixels. Desktop play stays within the viewport and the journal scrolls independently.
+Open index.html alongside engine.js, logo.png and meadow.wav. No build, installation, external libraries or fonts. Browser restrictions may affect local-file saves; the hosted version uses normal browser storage. Original 40-second music is included. Approximately 1 MB total. MIT licensed.
