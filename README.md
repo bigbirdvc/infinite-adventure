@@ -37,3 +37,5 @@ Sixteen enemy types include skeletons, slimes, bats, treants, goblins, wolves, o
 The desktop header is one row with logo, map badge, speed, view and sound controls. The tagline is removed. Activity category labels remain in the source but are hidden; combat rounds have no headline.
 
 Validation: 300 generated maps across all layouts, all 16 enemies, two to six hubs, reachable quests and building doors, and completion within six minutes at Normal. Tests also cover deterministic save/resume, speed scaling, offline progress and migration from earlier saves.
+
+The activity card is pinned above the independently scrolling journal. It expands for combat while the map keeps its full available height; Full Map scales the existing grid proportionally.
