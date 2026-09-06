@@ -20,10 +20,20 @@ Saves include levels, inventory, quests, map, route, battle and random seed. Old
 
 ## Local play
 
-Open index.html with engine.js, character.js, logo.png and meadow.wav alongside it. No build or external dependencies. Browser restrictions may affect local-file saves. Original music is included. Approximately 1 MB total. MIT licensed.
+Open index.html with engine.js, character.js, terrain.js, monsters.js, logo.png and meadow.wav alongside it. No build or external dependencies. Browser restrictions may affect local-file saves. Original music is included. Approximately 1 MB total. MIT licensed.
 
 ## Your character
 
 Choose a name and a Knight, Elf or Mage. Roll Outfit randomises six equipment colour regions. The chosen shape and colours appear in the creator, on the map and in battle; narration uses the chosen name. Existing unnamed saves request this setup while keeping their progress.
 
 The header contains map title, sound, Slow / Normal / Fast speed and Full Map / Follow view controls. Delete Character at the bottom of the journal opens a permanent-deletion warning with Keep Character and Delete Forever actions. Confirming removes the saved adventure and returns to the creator.
+
+## Regions and encounters
+
+Eight terrain layouts generate dry forests, winding rivers, river valleys, twin rivers, lakesides, deltas, broad crossings and woodland ponds. Two to six irregularly positioned hubs connect through branching roads and optional loops. Buildings retain clear entrances; water crossings become bridges. Active saved maps are preserved until the next region.
+
+Sixteen enemy types include skeletons, slimes, bats, treants, goblins, wolves, orcs, ogres, trolls, giant spiders, wraiths, golems, drakes, fallen knights, warlocks and bandits. Geese are no longer enemies. Tougher foes have increased health, damage and rewards. The existing finite battle limit keeps journeys progressing.
+
+The desktop header is one row with logo, map badge, speed, view and sound controls. The tagline is removed. Activity category labels remain in the source but are hidden; combat rounds have no headline.
+
+Validation: 300 generated maps across all layouts, all 16 enemies, two to six hubs, reachable quests and building doors, and completion within six minutes at Normal. Tests also cover deterministic save/resume, speed scaling, offline progress and migration from earlier saves.
